@@ -20,7 +20,7 @@ def disclaimer():
     sleep(8)
     limpaTela()
 
-def random_password(c, l):
+def geraSenha(c, l):
 	# randomiza caracteres da lista
 	random.shuffle(c)
 	
@@ -38,7 +38,7 @@ def random_password(c, l):
 id = str(input("Digite um identificador para a senha: "))
 l = int(input("Qual será o tamanho da senha?: "))
 c = list(string.ascii_letters + string.digits + "!@#$%&*")
-senha = random_password(c,l)
+senha = geraSenha(c,l)
 
 #gerando o caminho para o arquivo onde as senhas sao salvas
 def path():
