@@ -35,6 +35,8 @@ def geraSenha(c, l):
     #a funcao retorna a senha
 	return "".join(password)
 
+disclaimer()
+
 id = str(input("Digite um identificador para a senha: "))
 l = int(input("Qual será o tamanho da senha?: "))
 c = list(string.ascii_letters + string.digits + "!@#$%&*")
