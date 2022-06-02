@@ -13,7 +13,7 @@ def disclaimer():
     print('A senha será salva em um arquivo chamado "SENHAS.txt" na sua área de trabalho(NAO MOVA O ARQUIVO PARA OUTRO LUGAR).\n')
     print('O codigo para este programa é aberto, sinta-se livre para edita-lo como desejar.\n')
     print('LEIA O ARQUIVO README.md')
-    print('Código original por: https://github.com/Joaogmbd/ :)\n')
+    print('Código por: https://github.com/Joaogmbd/ :)\n')
     print('===============================================================================')
 
     #timer para ler a mensagem inicial
